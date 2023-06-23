@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="description">Calculator operations</p>
+    <h1 id="title" style="text-align: center;">Welcome to Calculate me!</h1>
+    <div class="container">
+        <div class="calc">
+            <input id="result" type="text" placeholder="0">
+
+            <button onclick="clr()" id="clear">C</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button onclick="calculate('-')" id="subtract">-</button>
+            <button onclick="calculate(1)" id="1">1</button>
+            <button onclick="calculate(2)" id="2">2</button>
+            <button onclick="calculate(3)" id="3">3</button>
+            <button onclick="calculate('+')" id="add">+</button>
+            <button onclick="calculate('.')">.</button>
+            <button onclick="calculate(0)">0</button>
+            <button id="equal" onclick="Result()" class="equal">=</button>
+
+        </div>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
